@@ -100,7 +100,12 @@ namespace Pasjans
                 List<PictureBox> Pb = new List<PictureBox>();
                 foreach (Card c in stack.Cards)
                 {
-                    if (stack.Pb[stack.Cards.IndexOf(c)].BackgroundImage != Images.Back && ((stack.Cards.IndexOf(c) - 1 >= 0 && (stack.Cards[stack.Cards.IndexOf(c) - 1].Priority - 1 == c.Priority || c.Priority == 12)) || c.Priority == 12))
+                    if(Pb.Count() == 0 && c.Priority == 12)
+                    {
+                        Pb.Clear();
+                    }
+
+                    if (stack.Pb[stack.Cards.IndexOf(c)].BackgroundImage != Images.Back && (c.Priority == stack.GetPrevCardPriorityInStack(c) - 1 || c.Priority == stack.GetNextCardPriorityInStack(c) + 1))
                     {
                         Pb.Add(stack.Pb[stack.Cards.IndexOf(c)]);
                     }

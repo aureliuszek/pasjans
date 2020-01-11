@@ -122,12 +122,10 @@ namespace Pasjans
             Main8.AddCardToStack(cards, 5);
             Main9.AddCardToStack(cards, 5);
             Main10.AddCardToStack(cards, 5);
-
         }
 
         private void ClearAllControls()
         {
-
             Rest.Clear();
 
             Base1.Clear();

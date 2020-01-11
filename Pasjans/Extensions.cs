@@ -25,6 +25,30 @@ namespace Pasjans
             }
         }
 
+        public static int GetNextCardPriorityInStack(this Stack s, Card c)
+        {
+            if (s.Cards.Count() >= s.Cards.IndexOf(c)+2)
+            {
+                return s.Cards[s.Cards.IndexOf(c) + 1].Priority;
+            }
+            else
+            {
+                return -1;
+            }
+        }
+
+        public static int GetPrevCardPriorityInStack(this Stack s, Card c)
+        {
+            if (s.Cards.IndexOf(c) > 0)
+            {
+                return s.Cards[s.Cards.IndexOf(c) - 1].Priority;
+            }
+            else
+            {
+                return -1;
+            }
+        }
+
         public static void ChangeWidth(this List<PictureBox> ls, int width)
         {
             foreach (PictureBox p in ls)
