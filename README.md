@@ -1,5 +1,5 @@
 # Pasjans pająk
-Projektprzygotowany w celu zaliczenia przedmiotu "Programowanie Obiektowe C#"
+Projekt przygotowany w celu zaliczenia przedmiotu "Programowanie Obiektowe C#"
 
 Skład osobowy:
 
