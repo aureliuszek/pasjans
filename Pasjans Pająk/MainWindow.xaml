@@ -1,0 +1,88 @@
+﻿<Window x:Class="Pasjans_Pająk.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pasjans_Pająk"
+        mc:Ignorable="d"
+        Title="Pasjans Pająk" Height="845" Width="1237" ResizeMode="NoResize"  WindowState="Normal" >
+    <Canvas x:Name="Main" Background="Transparent" MouseEnter="Main_MouseEnter">
+
+
+        <Menu >
+            <MenuItem Header="Nowa Gra" Click="NewGameButton_Click"></MenuItem>
+            <MenuItem Header="Kolor tali">
+                <RadioButton x:Name="R10" Tag="-1" Content="Losowy" IsChecked="True" Checked="RadioButton_Checked"></RadioButton>
+                <RadioButton x:Name="R0" Tag="0" Content="Serca" Checked="RadioButton_Checked"></RadioButton>
+                <RadioButton x:Name="R1" Tag="1" Content="Pik" Checked="RadioButton_Checked"></RadioButton>
+                <RadioButton x:Name="R2" Tag="2" Content="Diamenty" Checked="RadioButton_Checked"></RadioButton>
+                <RadioButton x:Name="R3" Tag="3" Content="Trefl" Checked="RadioButton_Checked"></RadioButton>
+            </MenuItem>
+            <MenuItem Header="Poziom trudności">
+                <RadioButton x:Name="Easy" Tag="0" Content="Łatwy" IsChecked="True" Checked="Diff_Checked"></RadioButton>
+                <RadioButton x:Name="Hard" Tag="1" Content="Trudny" Checked="Diff_Checked"></RadioButton>
+                <RadioButton x:Name="Impossible" Tag="2" Content="Bardzo trudny" Checked="Diff_Checked"></RadioButton>
+             </MenuItem>
+        </Menu>
+        <!--Reszta kart-->
+        <Border x:Name="ReserveStack" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="160" Margin="20,80,0,0" VerticalAlignment="Top" Width="100">
+            <Image/>
+        </Border>
+        <!--Sloty na karty kart-->
+        <Border x:Name="BaseStack1" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="160" Margin="260,80,0,0" VerticalAlignment="Top" Width="100">
+            <Image/>
+        </Border>
+        <Border x:Name="BaseStack2" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="160" Margin="380,80,0,0" VerticalAlignment="Top" Width="100">
+            <Image/>
+        </Border>
+        <Border x:Name="BaseStack3" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="160" Margin="500,80,0,0" VerticalAlignment="Top" Width="100">
+            <Image/>
+        </Border>
+        <Border x:Name="BaseStack4" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="160" Margin="620,80,0,0" VerticalAlignment="Top" Width="100">
+            <Image/>
+        </Border>
+        <Border x:Name="BaseStack5" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="160" Margin="740,80,0,0" VerticalAlignment="Top" Width="100">
+            <Image/>
+        </Border>
+        <Border x:Name="BaseStack6" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="160" Margin="860,80,0,0" VerticalAlignment="Top" Width="100">
+            <Image/>
+        </Border>
+        <Border x:Name="BaseStack7" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="160" Margin="980,80,0,0" VerticalAlignment="Top" Width="100">
+            <Image/>
+        </Border>
+        <Border x:Name="BaseStack8" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="160" Margin="1100,80,0,0" VerticalAlignment="Top" Width="100">
+            <Image/>
+        </Border>
+        <!--Główne karty-->
+        <Border AllowDrop ="True" x:Name="MainStack1" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="160" Margin="20,360,0,0" VerticalAlignment="Top" Width="100">
+            <Image/>
+        </Border>
+        <Border x:Name="MainStack2" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="160" Margin="140,360,0,0" VerticalAlignment="Top" Width="100">
+            <Image/>
+        </Border>
+        <Border x:Name="MainStack3" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="160" Margin="260,360,0,0" VerticalAlignment="Top" Width="100">
+            <Image/>
+        </Border>
+        <Border x:Name="MainStack4" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="160" Margin="380,360,0,0" VerticalAlignment="Top" Width="100">
+            <Image/>
+        </Border>
+        <Border x:Name="MainStack5" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="160" Margin="500,360,0,0" VerticalAlignment="Top" Width="100">
+            <Image/>
+        </Border>
+        <Border x:Name="MainStack6" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="160" Margin="620,360,0,0" VerticalAlignment="Top" Width="100">
+            <Image/>
+        </Border>
+        <Border x:Name="MainStack7" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="160" Margin="740,360,0,0" VerticalAlignment="Top" Width="100">
+            <Image/>
+        </Border>
+        <Border x:Name="MainStack8" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="160" Margin="860,360,0,0" VerticalAlignment="Top" Width="100">
+            <Image/>
+        </Border>
+        <Border x:Name="MainStack9" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="160" Margin="980,360,0,0" VerticalAlignment="Top" Width="100">
+            <Image/>
+        </Border>
+        <Border x:Name="MainStack10" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="160" Margin="1100,360,0,0" VerticalAlignment="Top" Width="100">
+            <Image/>
+        </Border>
+    </Canvas>
+</Window>

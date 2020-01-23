@@ -1,0 +1,5 @@
+C:\Users\Paweł Wójsik\source\repos\Projekt na molende\Extensions\bin\Release\Logic.dll
+C:\Users\Paweł Wójsik\source\repos\Projekt na molende\Extensions\bin\Release\Logic.pdb
+C:\Users\Paweł Wójsik\source\repos\Projekt na molende\Extensions\obj\Release\Logic.csprojAssemblyReference.cache
+C:\Users\Paweł Wójsik\source\repos\Projekt na molende\Extensions\obj\Release\Logic.dll
+C:\Users\Paweł Wójsik\source\repos\Projekt na molende\Extensions\obj\Release\Logic.pdb

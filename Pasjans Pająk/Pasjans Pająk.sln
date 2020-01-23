@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pasjans Pająk", "Pasjans Pająk.csproj", "{B45B1E07-3DAB-4E20-B5F5-CEB1AED12EC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "..\Logic\Extensions\Logic.csproj", "{D622262B-253F-4D41-971D-A4D0EA797719}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B45B1E07-3DAB-4E20-B5F5-CEB1AED12EC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B45B1E07-3DAB-4E20-B5F5-CEB1AED12EC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B45B1E07-3DAB-4E20-B5F5-CEB1AED12EC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B45B1E07-3DAB-4E20-B5F5-CEB1AED12EC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D622262B-253F-4D41-971D-A4D0EA797719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D622262B-253F-4D41-971D-A4D0EA797719}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D622262B-253F-4D41-971D-A4D0EA797719}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D622262B-253F-4D41-971D-A4D0EA797719}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1481B2DE-C11D-4608-97D3-2B463824BE19}
+	EndGlobalSection
+EndGlobal
