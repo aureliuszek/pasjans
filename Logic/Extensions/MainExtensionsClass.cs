@@ -89,7 +89,6 @@ namespace Logic
                 s.Cards.Clear();
             }
         }
-
         public static int GetElementPosition(this List<Card> cards,Card c)
         {
             return cards.FindIndex(x => x == c) + 1;

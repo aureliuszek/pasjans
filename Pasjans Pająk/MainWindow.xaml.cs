@@ -1,9 +1,11 @@
-﻿using System;
+﻿using Logic;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -15,7 +17,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Logic;
 using Image = System.Windows.Controls.Image;
 
 namespace Pasjans_Pająk
@@ -23,7 +24,6 @@ namespace Pasjans_Pająk
 
     public partial class MainWindow : Window
     {
-
         public MainWindow()
         {
             InitializeComponent();
@@ -78,7 +78,7 @@ namespace Pasjans_Pająk
             StartNewGame();
         }
 
-        private void StartNewGame()
+        public void StartNewGame()
         {
             if ((bool)R10.IsChecked)
                 LogicResources.DeckColor = Functions.RandomDeckColor();
@@ -104,6 +104,11 @@ namespace Pasjans_Pająk
         private void Diff_Checked(object sender, RoutedEventArgs e)
         {
             LogicResources.Difficulty = (Difficulty)int.Parse((sender as RadioButton).Tag.ToString());
+        }
+        void Win()
+        {
+            Win w = new Win(this);
+            w.ShowDialog();
         }
     }
 }

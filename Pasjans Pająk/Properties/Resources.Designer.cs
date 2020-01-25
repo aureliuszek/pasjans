@@ -99,5 +99,15 @@ namespace Pasjans_Pająk.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Icon podobny do zasobu (Ikona).
+        /// </summary>
+        public static System.Drawing.Icon mono_package_games_cards {
+            get {
+                object obj = ResourceManager.GetObject("mono_package_games_cards", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
     }
 }

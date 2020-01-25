@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-
 namespace Logic
 {
     public static class Functions
@@ -72,7 +72,7 @@ namespace Logic
         {
             if(LogicResources.Stacks.Where(x => x.Type == StackType.Base && x.Cards.Count() == 0).Count() == 0)
             {
-                MessageBox.Show("Wygrałeś");
+                LogicResources.MainWindow.GetType().GetMethod("Win", BindingFlags.NonPublic | BindingFlags.Instance).Invoke(LogicResources.MainWindow, null);
             }
         }
 

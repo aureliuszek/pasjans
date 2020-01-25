@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Pasjans_Pająk"
         mc:Ignorable="d"
-        Title="Pasjans Pająk" Height="845" Width="1237" ResizeMode="NoResize"  WindowState="Normal" >
+        Title="Pasjans Pająk" Height="845" Width="1237" ResizeMode="NoResize" Tag="false" WindowState="Normal" >
     <Canvas x:Name="Main" Background="Transparent" MouseEnter="Main_MouseEnter">
 
 

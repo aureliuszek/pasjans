@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pasjans Pająk", "Pasjans P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "..\Logic\Extensions\Logic.csproj", "{D622262B-253F-4D41-971D-A4D0EA797719}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Pasjans pająk setup", "..\Pasjans pająk setup\Pasjans pająk setup.vdproj", "{7B90D553-C321-4CA1-8120-85DB6B5A8551}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic.Test", "..\Logic.Test\Logic.Test.csproj", "{E7E9E4AE-F42B-4734-A8D4-FFA7F1BDE5E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,12 @@ Global
 		{D622262B-253F-4D41-971D-A4D0EA797719}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D622262B-253F-4D41-971D-A4D0EA797719}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D622262B-253F-4D41-971D-A4D0EA797719}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B90D553-C321-4CA1-8120-85DB6B5A8551}.Debug|Any CPU.ActiveCfg = Debug
+		{7B90D553-C321-4CA1-8120-85DB6B5A8551}.Release|Any CPU.ActiveCfg = Release
+		{E7E9E4AE-F42B-4734-A8D4-FFA7F1BDE5E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7E9E4AE-F42B-4734-A8D4-FFA7F1BDE5E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7E9E4AE-F42B-4734-A8D4-FFA7F1BDE5E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7E9E4AE-F42B-4734-A8D4-FFA7F1BDE5E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
