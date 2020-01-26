@@ -145,13 +145,13 @@
     <None Include="Resources\Win.gif" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Logic\Extensions\Logic.csproj">
-      <Project>{d622262b-253f-4d41-971d-a4d0ea797719}</Project>
-      <Name>Logic</Name>
-    </ProjectReference>
+    <None Include="Resources\mono-package-games-cards.ico" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\mono-package-games-cards.ico" />
+    <ProjectReference Include="..\Logic\Logic.csproj">
+      <Project>{D622262B-253F-4D41-971D-A4D0EA797719}</Project>
+      <Name>Logic</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,5 +1,0 @@
-C:\Users\Paweł Wójsik\source\repos\Projekt na molende\Extensions\bin\Debug\Extensions.dll
-C:\Users\Paweł Wójsik\source\repos\Projekt na molende\Extensions\bin\Debug\Extensions.pdb
-C:\Users\Paweł Wójsik\source\repos\Projekt na molende\Extensions\obj\Debug\Extensions.csprojAssemblyReference.cache
-C:\Users\Paweł Wójsik\source\repos\Projekt na molende\Extensions\obj\Debug\Extensions.dll
-C:\Users\Paweł Wójsik\source\repos\Projekt na molende\Extensions\obj\Debug\Extensions.pdb

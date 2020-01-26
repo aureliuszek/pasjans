@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29411.108
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pasjans Pająk", "Pasjans Pająk.csproj", "{B45B1E07-3DAB-4E20-B5F5-CEB1AED12EC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "..\Logic\Extensions\Logic.csproj", "{D622262B-253F-4D41-971D-A4D0EA797719}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "..\Logic\Logic.csproj", "{D622262B-253F-4D41-971D-A4D0EA797719}"
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Pasjans pająk setup", "..\Pasjans pająk setup\Pasjans pająk setup.vdproj", "{7B90D553-C321-4CA1-8120-85DB6B5A8551}"
 EndProject
